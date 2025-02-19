@@ -8,6 +8,6 @@ try:
     else:
         raise ValueError
 except ValueError as h:
-    print("You have enter {0} please check your age and try again.".format(h))
+    print("You have entered something wrong.Please check your age and try again.")
 finally:
     print("Enjoy no matter what lays ahead of you.")
